@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeslaX</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="adict/adict.css">
+    <link rel="stylesheet" href="adict/intlTelInput.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <button class="logo__link">
+                        <img class="logo__img" src="images/Logo.svg" alt="logo">
+                    </button>
+                </div>
+
+                <button class="header__btn _link" value="feedback">
+                    Личный кабинет
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="promo">
+            <div class="promo__container">
+                <div class="promo__inner">
+                    <div class="promo__item">
+                        <h1 class="promo__title">
+                            Подключитесь к проекту Илона Маска
+                            и зарабатывайте от <span><img class="title__img" src="images/4000.svg" alt="4000"></span>
+                            ежемесячно!
+                        </h1>
+
+                        <p class="promo__description">
+                            Откройте счёт и начните зарабатывать
+                        </p>
+
+                        <form class="form promo__form" id="form" action="api.php" method="post">
+                            <input class="form__input promo__form-input" placeholder="Введите ваше имя" name="name"
+                                type="text">
+                            <input class="form__input promo__form-input" placeholder="Введите фамилию" name="surname"
+                                type="text">
+                            <input class="form__input promo__form-input" placeholder="Действующий e-mail" name="email"
+                                type="email">
+                            <input class="form__input promo__form-input" type="tel" name="phone">
+
+                            <button class="form__btn button promo__form-btn" id="button" type="submit">ОТПРАВИТЬ</button>
+                        </form>
+                    </div>
+
+                    <div class="promo__item">
+                        <iframe width="780" height="500" src="https://www.youtube.com/embed/3lCa8DBzH18"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stat">
+            <div class="container">
+                <div class="stat__head">
+                    <h3 class="stat__title">
+                        Это революция, которая <span>обеспечит</span> всех желающих необходимыми
+                        деньгами
+                    </h3>
+                </div>
+
+                <div class="stat__inner">
+                    <div class="stat__item">
+                        <p class="stat__num">
+                            98.7%
+                        </p>
+
+                        <p class="stat__description">
+                            Именно с такой точностью
+                            работает система Tesla X
+                        </p>
+                    </div>
+                    <div class="stat__item">
+                        <p class="stat__num">
+                            300%
+                        </p>
+
+                        <p class="stat__description">
+                            Именно такой средний заработок
+                            проекта Tesla X от начальных
+                            вложений
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offer">
+            <div class="container">
+                <div class="offer__head">
+                    <h3 class="offer__title">
+                        Используйте свой смартфон!
+                    </h3>
+
+                    <p class="offer__description">
+                        Современный проект Tesla X доступен на смартфонах, планшетах и компьютерах. Следите за своим
+                        доходом где и когда
+                        Вам удобно, в любой точке мира.
+                    </p>
+                </div>
+
+                <div class="offer__inner">
+                    <div class="offer__item">
+                        <img class="offer__img" src="images/win.svg" alt="win">
+                    </div>
+                    <div class="offer__item">
+                        <img class="offer__img" src="images/apple.svg" alt="apple">
+                    </div>
+                    <div class="offer__item">
+                        <img class="offer__img" src="images/google.svg" alt="google">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="container">
+                <div class="info__head">
+                    <h3 class="info__title">
+                        Почему вам стоит начать инвестировать в Tesla X?
+                    </h3>
+
+                    <p class="info__description">
+                        Преимущества инвестирования с нами
+                    </p>
+                    <p class="info__description">
+                        Инвестиции - это наиболее прибыльный, быстрый и доступный способ заработка. Вложения приносят
+                        стабильно высокий доход, не требуя при этом вашего непосредственного участия в процессе -
+                        продолжайте заниматься своими делами, пока капитал растет! Став инвестором, вы не только
+                        достигните полной финансовой независимости, но и обеспечите себе стабильность на годы вперед.
+                    </p>
+                </div>
+
+                <div class="info__inner">
+                    <div class="info__content">
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/Icon-feather.svg.svg" alt="feather">
+
+                            <p class="info__item-description">
+                                Низкий порог входа, начинать
+                            </p>
+                            <p class="info__item-description">
+                                инвестировать можно с 200 евро.
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/Icon-smile.svg.svg" alt="smile">
+
+                            <p class="info__item-description">
+                                Алгоритм рассчитывает 92 100 вариантов событий в секунду и прогнозирует наиболее
+                                выгодные сделки. Все риски сведены к нулю, ведь его точность достигает 98%.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info__content">
+                        <img class="info__img" src="images/info__img.png" alt="info__img">
+                    </div>
+                    <div class="info__content">
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/Icon-earth.svg.svg" alt="earth">
+
+                            <p class="info__item-description">
+                                Полная автоматизация всех процессов, обеспечивающая крупный доход даже тем, кто не имеет
+                                опыта.
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/time.svg.svg" alt="time">
+
+                            <p class="info__item-description">
+                                Первая прибыль в течении всего одной недели.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="coments">
+            <div class="container">
+                <div class="coments__head">
+                    <h4 class="coments__title">
+                        Отзывы участников ТеслаX
+                    </h4>
+
+                    <p class="coments__description">
+                        Ежедневно к проекту Илона Маска присоединяются десятки людей со всего мира. Они с удовольствием
+                        делится результатами своего
+                        заработка, ведь он гораздо выше средней зарплаты в Европе!
+                    </p>
+                </div>
+
+                <div class="coments__inner">
+                    <div class="coments__item">
+                        <img class="coments__img" src="images/Quote-begin.svg.svg" alt="">
+
+                        <p class="coments__item-text">
+                            Рекомендую проект каждому, кто хочет начать много зарабатывать, не прикладывая усилий. Моя
+                            первая инвестиция вернулась в двукратном размере всего через 4 дня, а уже спустя месяц я
+                            смогла позволить себе покупку автомобиля. Фантастика!
+                        </p>
+
+                        <div class="coments__info">
+                            <div class="coments__info-head">
+                                <img class="coments__info-img" src="images/avatar_1.png.png" alt="avatar_1">
+
+                                <p class="coments__info-name">
+                                    Инга Дянченко
+                                </p>
+                            </div>
+
+                            <div class="coments__info-inner">
+                                <div class="coments__info-item">
+                                    <img class="coments__info-icon" src="images/camera.svg.svg" alt="camera">
+
+                                    <p class="coments__info-description">
+                                        Инвестировал
+                                    </p>
+
+                                    <img class="coments__info-num" src="images/200.svg.svg" alt="200">
+                                </div>
+                                <div class="coments__info-item">
+                                    <img class="coments__info-icon" src="images/camera.svg.svg" alt="camera">
+
+                                    <p class="coments__info-description">
+                                        Заработал
+                                    </p>
+
+                                    <img class="coments__info-num" src="images/1800.svg.svg" alt="1800">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coments__item">
+                        <img class="coments__img" src="images/Quote-begin.svg.svg" alt="">
+
+                        <p class="coments__item-text">
+                            Решил попробовать себя в роли инвестора на проекте - даже не имея опыта, я сразу влился в
+                            процесс и начал зарабатывать 500 евро неделю. Быстро, эффективно, надежно! 5 звезд.
+                        </p>
+
+                        <div class="coments__info">
+                            <div class="coments__info-head">
+                                <img class="coments__info-img" src="images/Avatar_2.png.png" alt="Avatar_2">
+
+                                <p class="coments__info-name">
+                                    Дмитрий Петров
+                                </p>
+                            </div>
+
+                            <div class="coments__info-inner">
+                                <div class="coments__info-item">
+                                    <img class="coments__info-icon" src="images/camera.svg.svg" alt="camera">
+
+                                    <p class="coments__info-description">
+                                        Инвестировал
+                                    </p>
+
+                                    <img class="coments__info-num" src="images/1000.svg.svg" alt="1000">
+                                </div>
+                                <div class="coments__info-item">
+                                    <img class="coments__info-icon" src="images/camera.svg.svg" alt="camera">
+
+                                    <p class="coments__info-description">
+                                        Заработал
+                                    </p>
+
+                                    <img class="coments__info-num" src="images/7800.svg.svg" alt="7800">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coments__item">
+                        <img class="coments__img" src="images/Quote-begin.svg.svg" alt="">
+
+                        <p class="coments__item-text">
+                            Проект - реальная возможность для каждого обеспечить себе достойную жизнь. Присоединился
+                            после того, как меня сократили на карантине - теперь стабильно получаю 2700 евро. в месяц,
+                            работая в свободном графике. Очень удобно и легко - всем советую.
+                        </p>
+
+                        <div class="coments__info">
+                            <div class="coments__info-head">
+                                <img class="coments__info-img" src="images/Avatar_3.png.png" alt="Avatar_3">
+
+                                <p class="coments__info-name">
+                                    Александр Короленко
+                                </p>
+                            </div>
+
+                            <div class="coments__info-inner">
+                                <div class="coments__info-item">
+                                    <img class="coments__info-icon" src="images/camera.svg.svg" alt="camera">
+
+                                    <p class="coments__info-description">
+                                        Инвестировал
+                                    </p>
+
+                                    <img class="coments__info-num" src="images/7500.svg.svg" alt="7500">
+                                </div>
+                                <div class="coments__info-item">
+                                    <img class="coments__info-icon" src="images/camera.svg.svg" alt="camera">
+
+                                    <p class="coments__info-description">
+                                        Заработал
+                                    </p>
+
+                                    <img class="coments__info-num" src="images/326000.svg.svg" alt="326000">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="feedback" class="feedback">
+            <div class="container">
+                <div class="feedback__inner">
+                    <div class="feedback__item">
+                        <p class="feedback__text">
+                            Откройте счёт и начните 
+                            зарабатывать
+                        </p>
+
+                        <form class="form promo__form" id="form" action="api.php" method="post">
+                            <input class="form__input promo__form-input" placeholder="Введите ваше имя" name="name"
+                                type="text">
+                            <input class="form__input promo__form-input" placeholder="Введите фамилию" name="surname"
+                                type="text">
+                            <input class="form__input promo__form-input" placeholder="Действующий e-mail" name="email"
+                                type="email">
+                            <input class="form__input promo__form-input" type="tel" name="phone">
+
+                            <button class="form__btn button promo__form-btn" type="submit">ОТПРАВИТЬ</button>
+                        </form>
+                    </div>
+                    <div class="feedback__item">
+                        <img class="feedback__img" src="images/musk.png" alt="musk">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <button class="logo__link" href="">
+                        <img class="logo__img" src="images/Logo.svg" alt="logo">
+                    </button>
+                </div>
+
+                <button class="header__btn _link" value="feedback">
+                    Личный кабинет
+                </button>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/main.min.js"></script>
+    <script src="adict/adict.js"></script>
+    <script src="adict/intlTelInput.js"></script>
+    <script src="adict/utils.js"></script>
+</body>
+
+</html>
